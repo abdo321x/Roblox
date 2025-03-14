@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Games for Download</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #d4f6c9;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            background-color: #2ecc71;
+            padding: 15px;
+            color: white;
+            font-size: 24px;
+        }
+
+        .game-list {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .game {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 90%;
+            max-width: 400px;
+            margin-bottom: 20px;
+            overflow: hidden;
+            display: flex;
+            text-align: left;
+        }
+
+        .game img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+        }
+
+        .game-info {
+            padding: 10px;
+            flex: 1;
+        }
+
+        h2 {
+            font-size: 18px;
+            margin: 5px 0;
+        }
+
+        p {
+            font-size: 14px;
+            margin: 5px 0;
+        }
+
+        .download {
+            background: #ff9800;
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+            padding: 10px;
+            display: block;
+            text-align: center;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>🎮 Best Games for Download</h1>
+    </header>
+
+    <section class="game-list">
+        <div class="game">
+            <img src="https://via.placeholder.com/100" alt="GTA 5 Mobile">
+            <div class="game-info">
+                <h2>GTA 5 Mobile</h2>
+                <p>🧑‍🤝‍🧑 812,740 &nbsp; 📥 <a href="#" class="download" onclick="showLocker()">Download</a></p>
+            </div>
+        </div>
+
+        <div class="game">
+            <img src="https://via.placeholder.com/100" alt="FIFA 23 Mobile">
+            <div class="game-info">
+                <h2>FIFA 23 Mobile</h2>
+                <p>🧑‍🤝‍🧑 359,415 &nbsp; 📥 <a href="#" class="download" onclick="showLocker()">Download</a></p>
+            </div>
+        </div>
+
+        <div class="game">
+            <img src="https://via.placeholder.com/100" alt="Squid Games">
+            <div class="game-info">
+                <h2>Squid Games</h2>
+                <p>🧑‍🤝‍🧑 859,070 &nbsp; 📥 <a href="#" class="download" onclick="showLocker()">Download</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Content Locker Script -->
+    <script type="text/javascript">
+        var hsgpn_wfc_TvfJkc={"it":4454734,"key":"9191f"};
+    </script>
+    <script src="https://d29gqhzevia104.cloudfront.net/36d8a70.js"></script>
+
+    <script>
+        function showLocker() {
+            if (typeof CPBContentLocker !== "undefined") {
+                new CPBContentLocker();
+            } else {
+                alert("Error! Make sure the Content Locker is working properly.");
+            }
+        }
+    </script>
+
+</body>
+</html>
